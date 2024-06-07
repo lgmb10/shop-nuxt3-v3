@@ -41,7 +41,6 @@ import {useCart, useCartQuantity} from "~/composables/cart";
 import {useCookie} from "#app";
 import {checkUserRole, getInfoFromJWT} from "~/utils/auth";
 
-const {$auth} = useNuxtApp();
 const cartStore = useCart();
 const cartStoreQuantity = useCartQuantity();
 let token;
